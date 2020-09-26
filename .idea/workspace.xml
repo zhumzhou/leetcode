@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c1eab078-b7df-4ed3-8d78-0cb5af88b99c" name="默认更改列表" comment="默认更改列表">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/test/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dhu/offer/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dhu/offer/Test1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,11 +52,6 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="width" value="1185" />
-    <option name="height" value="1040" />
   </component>
   <component name="ProjectId" id="1i3UgylXwaMiYndfXVYl227TTgk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -174,7 +185,7 @@
       <workItem from="1596422064741" duration="1900000" />
       <workItem from="1596503016510" duration="1239000" />
       <workItem from="1596676309699" duration="5242000" />
-      <workItem from="1601135885012" duration="315000" />
+      <workItem from="1601135885012" duration="530000" />
     </task>
     <task id="LOCAL-00001" summary="zmzzmz">
       <created>1595571354912</created>
@@ -197,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601136020158</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="默认更改列表">
+      <created>1601136211027</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601136211027</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +236,32 @@
     <MESSAGE value="zmzzmz" />
     <MESSAGE value="默认更改列表" />
     <option name="LAST_COMMIT_MESSAGE" value="默认更改列表" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1397" height="117" key="GridCell.Tab.0.bottom" timestamp="1601136418672">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="117" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1601136418672" />
+    <state width="1397" height="117" key="GridCell.Tab.0.center" timestamp="1601136418672">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="117" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1601136418672" />
+    <state width="1397" height="117" key="GridCell.Tab.0.left" timestamp="1601136418672">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="117" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1601136418672" />
+    <state width="1397" height="117" key="GridCell.Tab.0.right" timestamp="1601136418672">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="117" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1601136418672" />
+    <state x="313" y="193" key="Vcs.Push.Dialog.v2" timestamp="1601136370788">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="313" y="193" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1601136370788" />
+    <state x="535" y="373" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601136201507">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="535" y="373" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.920@0.0.1440.920" timestamp="1601136201507" />
   </component>
   <component name="masterDetails">
     <states>
