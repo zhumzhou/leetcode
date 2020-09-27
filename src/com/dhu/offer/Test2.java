@@ -14,8 +14,6 @@ public class Test2 {
         int[][] arr = new int[spl.length][2];
         for (int i = 0; i < arr.length; i++) {
 
-
-
         }
 
     }
