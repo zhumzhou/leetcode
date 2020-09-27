@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,7 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1eab078-b7df-4ed3-8d78-0cb5af88b99c" name="默认更改列表" comment="默认更改列表">
+      <change afterPath="$PROJECT_DIR$/src/com/dhu/offer/Test2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dhu/offer/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dhu/offer/Test1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,11 +52,6 @@
         <option name="userSettingsFile" value="D:\apache-maven-3.5.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectId" id="1i3UgylXwaMiYndfXVYl227TTgk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -66,9 +66,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596694524877" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -141,13 +147,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -186,6 +194,8 @@
       <workItem from="1596503016510" duration="1239000" />
       <workItem from="1596676309699" duration="5242000" />
       <workItem from="1601135885012" duration="530000" />
+      <workItem from="1601136611430" duration="258000" />
+      <workItem from="1601175872158" duration="5301000" />
     </task>
     <task id="LOCAL-00001" summary="zmzzmz">
       <created>1595571354912</created>
@@ -215,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601136211027</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="默认更改列表">
+      <created>1601136708040</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601136708040</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +248,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="zmzzmz" />
@@ -238,45 +256,33 @@
     <option name="LAST_COMMIT_MESSAGE" value="默认更改列表" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1397" height="117" key="GridCell.Tab.0.bottom" timestamp="1601136418672">
+    <state width="1397" height="117" key="GridCell.Tab.0.bottom" timestamp="1601196347610">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="117" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1601136418672" />
-    <state width="1397" height="117" key="GridCell.Tab.0.center" timestamp="1601136418672">
+    <state width="1397" height="117" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1601196347610" />
+    <state width="1397" height="117" key="GridCell.Tab.0.center" timestamp="1601196347610">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="117" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1601136418672" />
-    <state width="1397" height="117" key="GridCell.Tab.0.left" timestamp="1601136418672">
+    <state width="1397" height="117" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1601196347610" />
+    <state width="1397" height="117" key="GridCell.Tab.0.left" timestamp="1601196347610">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="117" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1601136418672" />
-    <state width="1397" height="117" key="GridCell.Tab.0.right" timestamp="1601136418672">
+    <state width="1397" height="117" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1601196347610" />
+    <state width="1397" height="117" key="GridCell.Tab.0.right" timestamp="1601196347610">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="117" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1601136418672" />
-    <state x="313" y="193" key="Vcs.Push.Dialog.v2" timestamp="1601136370788">
+    <state width="1397" height="117" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1601196347610" />
+    <state x="222" y="105" key="SettingsEditor" timestamp="1601217589285">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="313" y="193" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1601136370788" />
+    <state x="222" y="105" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1601217589285" />
+    <state x="313" y="193" key="Vcs.Push.Dialog.v2" timestamp="1601136712797">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="313" y="193" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1601136712797" />
     <state x="535" y="373" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601136201507">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="535" y="373" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.920@0.0.1440.920" timestamp="1601136201507" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
