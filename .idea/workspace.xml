@@ -23,7 +23,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1eab078-b7df-4ed3-8d78-0cb5af88b99c" name="默认更改列表" comment="默认更改列表">
-      <change afterPath="$PROJECT_DIR$/src/com/dhu/offer/Test3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -146,15 +145,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -196,6 +193,8 @@
       <workItem from="1601135885012" duration="530000" />
       <workItem from="1601136611430" duration="258000" />
       <workItem from="1601175872158" duration="5604000" />
+      <workItem from="1601220813441" duration="983000" />
+      <workItem from="1601221824477" duration="75000" />
     </task>
     <task id="LOCAL-00001" summary="zmzzmz">
       <created>1595571354912</created>
@@ -263,22 +262,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="默认更改列表" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1397" height="117" key="GridCell.Tab.0.bottom" timestamp="1601217887226">
+    <state width="1397" height="117" key="GridCell.Tab.0.bottom" timestamp="1601221806591">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="117" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1601217887226" />
-    <state width="1397" height="117" key="GridCell.Tab.0.center" timestamp="1601217887226">
+    <state width="1397" height="117" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1601221806591" />
+    <state width="1397" height="117" key="GridCell.Tab.0.center" timestamp="1601221806591">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="117" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1601217887226" />
-    <state width="1397" height="117" key="GridCell.Tab.0.left" timestamp="1601217887226">
+    <state width="1397" height="117" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1601221806591" />
+    <state width="1397" height="117" key="GridCell.Tab.0.left" timestamp="1601221806590">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="117" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1601217887226" />
-    <state width="1397" height="117" key="GridCell.Tab.0.right" timestamp="1601217887226">
+    <state width="1397" height="117" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1601221806590" />
+    <state width="1397" height="117" key="GridCell.Tab.0.right" timestamp="1601221806591">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="117" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1601217887226" />
+    <state width="1397" height="117" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1601221806591" />
     <state x="222" y="105" key="SettingsEditor" timestamp="1601217589285">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
