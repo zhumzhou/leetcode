@@ -1,42 +1,32 @@
 package com.dhu.offer;
 
-import java.util.ArrayList;
+
 import java.util.Scanner;
 
 public class Test1 {
     public static void main(String[] args) {
-
-        Scanner scan = new Scanner(System.in);
-        String str = scan.nextLine();
-        str = str.replace("[", "");
-        str = str.replace("]","");
-        String[] spl = str.split(",");
-        int[] arr = new int[spl.length];
-        for (int i = 0; i < arr.length; i++) {
-            arr[i]=Integer.parseInt(spl[i]);
-        }
-
-        ArrayList<Integer> integers = new ArrayList<>();
-
-        for (int i = 0; i < arr.length; i++) {
-
-            if (arr[i] == 1 || arr[i] == 0) {
-
+        Scanner scanner = new Scanner(System.in);
+        String s = scanner.nextLine();
+        byte[] bytes = s.getBytes();
+        for (int i = 0; i < bytes.length; i++) {
+            if ((bytes[i] >= 65 & bytes[i] <= 90) || (bytes[i] >= 97 & bytes[i] <= 122) || bytes[i] == 32) {
+                continue;
             } else {
-                boolean isSushu = true; //标记
-                for (int j = 2; j < arr[i]; j++) {
-                    if (arr[i] % j == 0) {
-                        isSushu = false;
-                        break;
-                    }
-                }
-                if (isSushu == true) {
-                    integers.add(arr[i]);
-                }
+                System.out.println("unknown name");
+                return;
             }
         }
-        String s = integers.toString();
-        s = s.replaceAll(" ", "");
-        System.out.println(s);
+        String[] s1 = s.split(" ");
+        String result = "";
+        if (s1.length < 3) {
+            for (int i = 0; i < s1.length; i++) {
+                result = result + s1[i].toLowerCase();
+            }
+        } else {
+            for (int i = 0; i < s1.length; i++) {
+                result = result + s1[i].toLowerCase().charAt(0);
+            }
+        }
+        System.out.println(result);
     }
 }
